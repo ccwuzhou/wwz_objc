@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "WWZSocket.h"
+@interface ViewController ()<WWZTCPSocketDelegate>
 
-@interface ViewController ()
+@property (nonatomic, strong) WWZTCPSocketClient *tcpSocket;
 
 @end
 
@@ -16,14 +18,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _tcpSocket = [[WWZTCPSocketClient alloc] initWithDelegate:self endKey:nil];
+    
+    [_tcpSocket connectToHost:@"120.76.246.20" onPort:24411];
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    
 }
 
+/**
+ *  socket连接成功回调
+ */
+- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didConnectToHost:(NSString *)host port:(uint16_t)port{
 
+}
+
+/**
+ *  socket连接失败回调
+ */
+- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didDisconnectWithError:(NSError *)error{
+
+}
+
+/**
+ *  socket收到数据回调
+ */
+- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didReadResult:(id)result{
+
+}
 @end
