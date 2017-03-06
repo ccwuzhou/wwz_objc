@@ -14,10 +14,10 @@
 		B05FA2CB1E6D51CF00845D00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2CA1E6D51CF00845D00 /* AppDelegate.m */; };
 		B05FA2CE1E6D51E400845D00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2CD1E6D51E400845D00 /* ViewController.m */; };
 		B05FA2D01E6D51F800845D00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2CF1E6D51F800845D00 /* main.m */; };
-		B05FA2E31E6D55B200845D00 /* WWZTCPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2DC1E6D55B200845D00 /* WWZTCPSocketServer.m */; };
-		B05FA2E41E6D55B200845D00 /* WWZSocketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2DE1E6D55B200845D00 /* WWZSocketRequest.m */; };
-		B05FA2E51E6D55B200845D00 /* WWZTCPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2E01E6D55B200845D00 /* WWZTCPSocketClient.m */; };
-		B05FA2E61E6D55B300845D00 /* WWZUDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2E21E6D55B200845D00 /* WWZUDPSocket.m */; };
+		B05FA2F51E6D61E600845D00 /* WWZSocketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2EE1E6D61E600845D00 /* WWZSocketRequest.m */; };
+		B05FA2F61E6D61E600845D00 /* WWZTCPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2F01E6D61E600845D00 /* WWZTCPSocketClient.m */; };
+		B05FA2F71E6D61E600845D00 /* WWZTCPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2F21E6D61E600845D00 /* WWZTCPSocketServer.m */; };
+		B05FA2F81E6D61E600845D00 /* WWZUDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2F41E6D61E600845D00 /* WWZUDPSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,15 +32,15 @@
 		B05FA2CC1E6D51E400845D00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B05FA2CD1E6D51E400845D00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B05FA2CF1E6D51F800845D00 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B05FA2DB1E6D55B200845D00 /* WWZTCPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZTCPSocketServer.h; sourceTree = "<group>"; };
-		B05FA2DC1E6D55B200845D00 /* WWZTCPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZTCPSocketServer.m; sourceTree = "<group>"; };
-		B05FA2DD1E6D55B200845D00 /* WWZSocketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZSocketRequest.h; sourceTree = "<group>"; };
-		B05FA2DE1E6D55B200845D00 /* WWZSocketRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZSocketRequest.m; sourceTree = "<group>"; };
-		B05FA2DF1E6D55B200845D00 /* WWZTCPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZTCPSocketClient.h; sourceTree = "<group>"; };
-		B05FA2E01E6D55B200845D00 /* WWZTCPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZTCPSocketClient.m; sourceTree = "<group>"; };
-		B05FA2E11E6D55B200845D00 /* WWZUDPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZUDPSocket.h; sourceTree = "<group>"; };
-		B05FA2E21E6D55B200845D00 /* WWZUDPSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZUDPSocket.m; sourceTree = "<group>"; };
-		B05FA2E71E6D55BD00845D00 /* WWZSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWZSocket.h; sourceTree = "<group>"; };
+		B05FA2EC1E6D61E600845D00 /* WWZSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZSocket.h; sourceTree = "<group>"; };
+		B05FA2ED1E6D61E600845D00 /* WWZSocketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZSocketRequest.h; sourceTree = "<group>"; };
+		B05FA2EE1E6D61E600845D00 /* WWZSocketRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZSocketRequest.m; sourceTree = "<group>"; };
+		B05FA2EF1E6D61E600845D00 /* WWZTCPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZTCPSocketClient.h; sourceTree = "<group>"; };
+		B05FA2F01E6D61E600845D00 /* WWZTCPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZTCPSocketClient.m; sourceTree = "<group>"; };
+		B05FA2F11E6D61E600845D00 /* WWZTCPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZTCPSocketServer.h; sourceTree = "<group>"; };
+		B05FA2F21E6D61E600845D00 /* WWZTCPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZTCPSocketServer.m; sourceTree = "<group>"; };
+		B05FA2F31E6D61E600845D00 /* WWZUDPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZUDPSocket.h; sourceTree = "<group>"; };
+		B05FA2F41E6D61E600845D00 /* WWZUDPSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZUDPSocket.m; sourceTree = "<group>"; };
 		D1AB28056D22ADC3300714B1 /* Pods-wwz_objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wwz_objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-wwz_objc/Pods-wwz_objc.release.xcconfig"; sourceTree = "<group>"; };
 		E7BF20A46618AB6A331BC562 /* libPods-wwz_objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wwz_objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,7 +115,7 @@
 		B05FA2C51E6D51A300845D00 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B05FA2D71E6D529200845D00 /* src */,
+				B05FA2E81E6D61E600845D00 /* Source */,
 				B05FA2C61E6D51C800845D00 /* Main */,
 				B05FA2C81E6D51C800845D00 /* Tool */,
 				B05FA2C71E6D51C800845D00 /* Other */,
@@ -149,42 +149,42 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		B05FA2D71E6D529200845D00 /* src */ = {
+		B05FA2E81E6D61E600845D00 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				B05FA2D81E6D529200845D00 /* WWZFoundation */,
-				B05FA2D91E6D529200845D00 /* WWZKit */,
-				B05FA2DA1E6D529200845D00 /* WWZSocket */,
+				B05FA2E91E6D61E600845D00 /* WWZFoundation */,
+				B05FA2EA1E6D61E600845D00 /* WWZKit */,
+				B05FA2EB1E6D61E600845D00 /* WWZSocket */,
 			);
-			path = src;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		B05FA2D81E6D529200845D00 /* WWZFoundation */ = {
+		B05FA2E91E6D61E600845D00 /* WWZFoundation */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = WWZFoundation;
 			sourceTree = "<group>";
 		};
-		B05FA2D91E6D529200845D00 /* WWZKit */ = {
+		B05FA2EA1E6D61E600845D00 /* WWZKit */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = WWZKit;
 			sourceTree = "<group>";
 		};
-		B05FA2DA1E6D529200845D00 /* WWZSocket */ = {
+		B05FA2EB1E6D61E600845D00 /* WWZSocket */ = {
 			isa = PBXGroup;
 			children = (
-				B05FA2E71E6D55BD00845D00 /* WWZSocket.h */,
-				B05FA2DF1E6D55B200845D00 /* WWZTCPSocketClient.h */,
-				B05FA2E01E6D55B200845D00 /* WWZTCPSocketClient.m */,
-				B05FA2E11E6D55B200845D00 /* WWZUDPSocket.h */,
-				B05FA2E21E6D55B200845D00 /* WWZUDPSocket.m */,
-				B05FA2DB1E6D55B200845D00 /* WWZTCPSocketServer.h */,
-				B05FA2DC1E6D55B200845D00 /* WWZTCPSocketServer.m */,
-				B05FA2DD1E6D55B200845D00 /* WWZSocketRequest.h */,
-				B05FA2DE1E6D55B200845D00 /* WWZSocketRequest.m */,
+				B05FA2EC1E6D61E600845D00 /* WWZSocket.h */,
+				B05FA2ED1E6D61E600845D00 /* WWZSocketRequest.h */,
+				B05FA2EE1E6D61E600845D00 /* WWZSocketRequest.m */,
+				B05FA2EF1E6D61E600845D00 /* WWZTCPSocketClient.h */,
+				B05FA2F01E6D61E600845D00 /* WWZTCPSocketClient.m */,
+				B05FA2F11E6D61E600845D00 /* WWZTCPSocketServer.h */,
+				B05FA2F21E6D61E600845D00 /* WWZTCPSocketServer.m */,
+				B05FA2F31E6D61E600845D00 /* WWZUDPSocket.h */,
+				B05FA2F41E6D61E600845D00 /* WWZUDPSocket.m */,
 			);
 			path = WWZSocket;
 			sourceTree = "<group>";
@@ -312,13 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05FA2F71E6D61E600845D00 /* WWZTCPSocketServer.m in Sources */,
 				B05FA2CB1E6D51CF00845D00 /* AppDelegate.m in Sources */,
-				B05FA2E51E6D55B200845D00 /* WWZTCPSocketClient.m in Sources */,
 				B05FA2CE1E6D51E400845D00 /* ViewController.m in Sources */,
-				B05FA2E61E6D55B300845D00 /* WWZUDPSocket.m in Sources */,
-				B05FA2E31E6D55B200845D00 /* WWZTCPSocketServer.m in Sources */,
-				B05FA2E41E6D55B200845D00 /* WWZSocketRequest.m in Sources */,
+				B05FA2F61E6D61E600845D00 /* WWZTCPSocketClient.m in Sources */,
 				B05FA2D01E6D51F800845D00 /* main.m in Sources */,
+				B05FA2F81E6D61E600845D00 /* WWZUDPSocket.m in Sources */,
+				B05FA2F51E6D61E600845D00 /* WWZSocketRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
