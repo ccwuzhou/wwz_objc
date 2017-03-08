@@ -14,21 +14,6 @@
 		B05FA2CB1E6D51CF00845D00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2CA1E6D51CF00845D00 /* AppDelegate.m */; };
 		B05FA2CE1E6D51E400845D00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2CD1E6D51E400845D00 /* ViewController.m */; };
 		B05FA2D01E6D51F800845D00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2CF1E6D51F800845D00 /* main.m */; };
-		B05FA2F51E6D61E600845D00 /* WWZSocketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2EE1E6D61E600845D00 /* WWZSocketRequest.m */; };
-		B05FA2F61E6D61E600845D00 /* WWZTCPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2F01E6D61E600845D00 /* WWZTCPSocketClient.m */; };
-		B05FA2F71E6D61E600845D00 /* WWZTCPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2F21E6D61E600845D00 /* WWZTCPSocketServer.m */; };
-		B05FA2F81E6D61E600845D00 /* WWZUDPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA2F41E6D61E600845D00 /* WWZUDPSocket.m */; };
-		B05FA31E1E6D66FA00845D00 /* NSString+WWZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA31D1E6D66FA00845D00 /* NSString+WWZ.m */; };
-		B05FA3211E6D678700845D00 /* NSObject+WWZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA3201E6D678700845D00 /* NSObject+WWZ.m */; };
-		B05FA3241E6D67C500845D00 /* NSTimer+WWZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA3231E6D67C500845D00 /* NSTimer+WWZ.m */; };
-		B05FA3271E6D67EB00845D00 /* NSDate+WWZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA3261E6D67EB00845D00 /* NSDate+WWZ.m */; };
-		B05FA32A1E6D682900845D00 /* NSData+WWZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA3291E6D682900845D00 /* NSData+WWZ.m */; };
-		B05FA32D1E6D684700845D00 /* NSAttributedString+WWZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA32C1E6D684700845D00 /* NSAttributedString+WWZ.m */; };
-		B05FA3301E6D692000845D00 /* WWZLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA32F1E6D692000845D00 /* WWZLanguageTool.m */; };
-		B05FA3331E6D692A00845D00 /* WWZCaptureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA3321E6D692A00845D00 /* WWZCaptureTool.m */; };
-		B05FA33B1E6D6A8700845D00 /* WWZKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA3361E6D6A8700845D00 /* WWZKeychain.m */; };
-		B05FA33C1E6D6A8700845D00 /* WWZKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA3381E6D6A8700845D00 /* WWZKeychainQuery.m */; };
-		B05FA33D1E6D6A8700845D00 /* WWZSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B05FA33A1E6D6A8700845D00 /* WWZSystem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,38 +28,6 @@
 		B05FA2CC1E6D51E400845D00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B05FA2CD1E6D51E400845D00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B05FA2CF1E6D51F800845D00 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B05FA2EC1E6D61E600845D00 /* WWZSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZSocket.h; sourceTree = "<group>"; };
-		B05FA2ED1E6D61E600845D00 /* WWZSocketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZSocketRequest.h; sourceTree = "<group>"; };
-		B05FA2EE1E6D61E600845D00 /* WWZSocketRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZSocketRequest.m; sourceTree = "<group>"; };
-		B05FA2EF1E6D61E600845D00 /* WWZTCPSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZTCPSocketClient.h; sourceTree = "<group>"; };
-		B05FA2F01E6D61E600845D00 /* WWZTCPSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZTCPSocketClient.m; sourceTree = "<group>"; };
-		B05FA2F11E6D61E600845D00 /* WWZTCPSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZTCPSocketServer.h; sourceTree = "<group>"; };
-		B05FA2F21E6D61E600845D00 /* WWZTCPSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZTCPSocketServer.m; sourceTree = "<group>"; };
-		B05FA2F31E6D61E600845D00 /* WWZUDPSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZUDPSocket.h; sourceTree = "<group>"; };
-		B05FA2F41E6D61E600845D00 /* WWZUDPSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZUDPSocket.m; sourceTree = "<group>"; };
-		B05FA31C1E6D66FA00845D00 /* NSString+WWZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WWZ.h"; sourceTree = "<group>"; };
-		B05FA31D1E6D66FA00845D00 /* NSString+WWZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WWZ.m"; sourceTree = "<group>"; };
-		B05FA31F1E6D678700845D00 /* NSObject+WWZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WWZ.h"; sourceTree = "<group>"; };
-		B05FA3201E6D678700845D00 /* NSObject+WWZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WWZ.m"; sourceTree = "<group>"; };
-		B05FA3221E6D67C500845D00 /* NSTimer+WWZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WWZ.h"; sourceTree = "<group>"; };
-		B05FA3231E6D67C500845D00 /* NSTimer+WWZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WWZ.m"; sourceTree = "<group>"; };
-		B05FA3251E6D67EB00845D00 /* NSDate+WWZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WWZ.h"; sourceTree = "<group>"; };
-		B05FA3261E6D67EB00845D00 /* NSDate+WWZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WWZ.m"; sourceTree = "<group>"; };
-		B05FA3281E6D682900845D00 /* NSData+WWZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WWZ.h"; sourceTree = "<group>"; };
-		B05FA3291E6D682900845D00 /* NSData+WWZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WWZ.m"; sourceTree = "<group>"; };
-		B05FA32B1E6D684700845D00 /* NSAttributedString+WWZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+WWZ.h"; sourceTree = "<group>"; };
-		B05FA32C1E6D684700845D00 /* NSAttributedString+WWZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+WWZ.m"; sourceTree = "<group>"; };
-		B05FA32E1E6D692000845D00 /* WWZLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZLanguageTool.h; sourceTree = "<group>"; };
-		B05FA32F1E6D692000845D00 /* WWZLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZLanguageTool.m; sourceTree = "<group>"; };
-		B05FA3311E6D692A00845D00 /* WWZCaptureTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZCaptureTool.h; sourceTree = "<group>"; };
-		B05FA3321E6D692A00845D00 /* WWZCaptureTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZCaptureTool.m; sourceTree = "<group>"; };
-		B05FA3341E6D694F00845D00 /* WWZFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWZFoundation.h; sourceTree = "<group>"; };
-		B05FA3351E6D6A8700845D00 /* WWZKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZKeychain.h; sourceTree = "<group>"; };
-		B05FA3361E6D6A8700845D00 /* WWZKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZKeychain.m; sourceTree = "<group>"; };
-		B05FA3371E6D6A8700845D00 /* WWZKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZKeychainQuery.h; sourceTree = "<group>"; };
-		B05FA3381E6D6A8700845D00 /* WWZKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZKeychainQuery.m; sourceTree = "<group>"; };
-		B05FA3391E6D6A8700845D00 /* WWZSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWZSystem.h; sourceTree = "<group>"; };
-		B05FA33A1E6D6A8700845D00 /* WWZSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWZSystem.m; sourceTree = "<group>"; };
 		D1AB28056D22ADC3300714B1 /* Pods-wwz_objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wwz_objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-wwz_objc/Pods-wwz_objc.release.xcconfig"; sourceTree = "<group>"; };
 		E7BF20A46618AB6A331BC562 /* libPods-wwz_objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wwz_objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,7 +102,6 @@
 		B05FA2C51E6D51A300845D00 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B05FA2E81E6D61E600845D00 /* Source */,
 				B05FA2C61E6D51C800845D00 /* Main */,
 				B05FA2C81E6D51C800845D00 /* Tool */,
 				B05FA2C71E6D51C800845D00 /* Other */,
@@ -181,69 +133,6 @@
 			children = (
 			);
 			path = Tool;
-			sourceTree = "<group>";
-		};
-		B05FA2E81E6D61E600845D00 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				B05FA2E91E6D61E600845D00 /* WWZFoundation */,
-				B05FA2EA1E6D61E600845D00 /* WWZKit */,
-				B05FA2EB1E6D61E600845D00 /* WWZSocket */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		B05FA2E91E6D61E600845D00 /* WWZFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				B05FA3341E6D694F00845D00 /* WWZFoundation.h */,
-				B05FA31F1E6D678700845D00 /* NSObject+WWZ.h */,
-				B05FA3201E6D678700845D00 /* NSObject+WWZ.m */,
-				B05FA31C1E6D66FA00845D00 /* NSString+WWZ.h */,
-				B05FA31D1E6D66FA00845D00 /* NSString+WWZ.m */,
-				B05FA3251E6D67EB00845D00 /* NSDate+WWZ.h */,
-				B05FA3261E6D67EB00845D00 /* NSDate+WWZ.m */,
-				B05FA3281E6D682900845D00 /* NSData+WWZ.h */,
-				B05FA3291E6D682900845D00 /* NSData+WWZ.m */,
-				B05FA3221E6D67C500845D00 /* NSTimer+WWZ.h */,
-				B05FA3231E6D67C500845D00 /* NSTimer+WWZ.m */,
-				B05FA32B1E6D684700845D00 /* NSAttributedString+WWZ.h */,
-				B05FA32C1E6D684700845D00 /* NSAttributedString+WWZ.m */,
-				B05FA32E1E6D692000845D00 /* WWZLanguageTool.h */,
-				B05FA32F1E6D692000845D00 /* WWZLanguageTool.m */,
-				B05FA3311E6D692A00845D00 /* WWZCaptureTool.h */,
-				B05FA3321E6D692A00845D00 /* WWZCaptureTool.m */,
-				B05FA3351E6D6A8700845D00 /* WWZKeychain.h */,
-				B05FA3361E6D6A8700845D00 /* WWZKeychain.m */,
-				B05FA3371E6D6A8700845D00 /* WWZKeychainQuery.h */,
-				B05FA3381E6D6A8700845D00 /* WWZKeychainQuery.m */,
-				B05FA3391E6D6A8700845D00 /* WWZSystem.h */,
-				B05FA33A1E6D6A8700845D00 /* WWZSystem.m */,
-			);
-			path = WWZFoundation;
-			sourceTree = "<group>";
-		};
-		B05FA2EA1E6D61E600845D00 /* WWZKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WWZKit;
-			sourceTree = "<group>";
-		};
-		B05FA2EB1E6D61E600845D00 /* WWZSocket */ = {
-			isa = PBXGroup;
-			children = (
-				B05FA2EC1E6D61E600845D00 /* WWZSocket.h */,
-				B05FA2ED1E6D61E600845D00 /* WWZSocketRequest.h */,
-				B05FA2EE1E6D61E600845D00 /* WWZSocketRequest.m */,
-				B05FA2EF1E6D61E600845D00 /* WWZTCPSocketClient.h */,
-				B05FA2F01E6D61E600845D00 /* WWZTCPSocketClient.m */,
-				B05FA2F11E6D61E600845D00 /* WWZTCPSocketServer.h */,
-				B05FA2F21E6D61E600845D00 /* WWZTCPSocketServer.m */,
-				B05FA2F31E6D61E600845D00 /* WWZUDPSocket.h */,
-				B05FA2F41E6D61E600845D00 /* WWZUDPSocket.m */,
-			);
-			path = WWZSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,24 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05FA3301E6D692000845D00 /* WWZLanguageTool.m in Sources */,
-				B05FA2F71E6D61E600845D00 /* WWZTCPSocketServer.m in Sources */,
-				B05FA32A1E6D682900845D00 /* NSData+WWZ.m in Sources */,
-				B05FA33D1E6D6A8700845D00 /* WWZSystem.m in Sources */,
 				B05FA2CB1E6D51CF00845D00 /* AppDelegate.m in Sources */,
-				B05FA33C1E6D6A8700845D00 /* WWZKeychainQuery.m in Sources */,
-				B05FA3271E6D67EB00845D00 /* NSDate+WWZ.m in Sources */,
-				B05FA32D1E6D684700845D00 /* NSAttributedString+WWZ.m in Sources */,
 				B05FA2CE1E6D51E400845D00 /* ViewController.m in Sources */,
-				B05FA2F61E6D61E600845D00 /* WWZTCPSocketClient.m in Sources */,
-				B05FA31E1E6D66FA00845D00 /* NSString+WWZ.m in Sources */,
 				B05FA2D01E6D51F800845D00 /* main.m in Sources */,
-				B05FA2F81E6D61E600845D00 /* WWZUDPSocket.m in Sources */,
-				B05FA3241E6D67C500845D00 /* NSTimer+WWZ.m in Sources */,
-				B05FA33B1E6D6A8700845D00 /* WWZKeychain.m in Sources */,
-				B05FA3211E6D678700845D00 /* NSObject+WWZ.m in Sources */,
-				B05FA2F51E6D61E600845D00 /* WWZSocketRequest.m in Sources */,
-				B05FA3331E6D692A00845D00 /* WWZCaptureTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

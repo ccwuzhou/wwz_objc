@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:WWZSocket/WWZSocket.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WWZKit/WWZKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WWZFoundation/WWZFoundation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:wwz_objc.xcodeproj">
    </FileRef>
    <FileRef

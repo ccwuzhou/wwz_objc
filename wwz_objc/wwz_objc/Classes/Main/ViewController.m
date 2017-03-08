@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "WWZSocket.h"
-@interface ViewController ()<WWZTCPSocketDelegate>
+//#import "WWZSocket.h"
+@interface ViewController ()
 
-@property (nonatomic, strong) WWZTCPSocketClient *tcpSocket;
+//@property (nonatomic, strong) WWZTCPSocketClient *tcpSocket;
 
 @end
 
@@ -19,9 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _tcpSocket = [[WWZTCPSocketClient alloc] initWithDelegate:self endKey:nil];
-    
-    [_tcpSocket connectToHost:@"120.76.246.20" onPort:24411];
+//    _tcpSocket = [[WWZTCPSocketClient alloc] initWithDelegate:self endKey:nil];
+//    
+//    [_tcpSocket connectToHost:@"120.76.246.20" onPort:24411];
     
 }
 
@@ -31,24 +31,24 @@
     
 }
 
-/**
- *  socket连接成功回调
- */
-- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didConnectToHost:(NSString *)host port:(uint16_t)port{
-
-}
-
-/**
- *  socket连接失败回调
- */
-- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didDisconnectWithError:(NSError *)error{
-
-}
-
-/**
- *  socket收到数据回调
- */
-- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didReadResult:(id)result{
-
-}
+///**
+// *  socket连接成功回调
+// */
+//- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didConnectToHost:(NSString *)host port:(uint16_t)port{
+//
+//}
+//
+///**
+// *  socket连接失败回调
+// */
+//- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didDisconnectWithError:(NSError *)error{
+//
+//}
+//
+///**
+// *  socket收到数据回调
+// */
+//- (void)tcpSocket:(WWZTCPSocketClient *)tcpSocket didReadResult:(id)result{
+//
+//}
 @end

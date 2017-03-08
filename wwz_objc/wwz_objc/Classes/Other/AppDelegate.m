@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WWZKit.h"
 @interface AppDelegate ()
 
 @end
